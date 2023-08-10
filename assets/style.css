@@ -1,6 +1,79 @@
 body{
     background-color: lightblue;
 }
+#form{
+    display: flex;
+}
+
+form {
+    justify-content: center;
+    margin: auto;
+}
+h1{
+    font-size: 45px;
+}
+h2{ 
+    font-size: 35px;
+}
+h3{
+    font-size: 25;
+}
+h4 {
+    font-size: 20;
+}
+#day1 h3 {
+    border-top: black 3px solid;
+}
+
+button {
+    display: inline-block;
+    background-color: #7b38d8;
+    padding: 20px;
+    margin: 20px;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 28px;
+}
+#box {
+    display: flex;
+}
+#table-container {
+    justify-content: center;
+    margin: auto;
+}
+#table-container button{
+    display: inline-block;
+    background-color: #7b38d8;
+    padding: 20px;
+    margin: 40px 10px 30px 10px;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    border: 4px double #cccccc;
+    border-radius: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    justify-content: center;
+}
+#weather-data {
+    background-color: #44A5AD;
+    border: black .5px solid;
+    border-radius: 10px;
+    justify-content: center;
+}
+#current-city-data{
+    margin: 10px;
+    justify-content: center;
+}
+#icon{
+    justify-content: center;
+}
+
 .card-content{
     background-color: lightgrey;
+    border: black 3px solid;
+    width: 450px;
 }

@@ -7,8 +7,9 @@
     <title>Weather!!!</title>
 </head>
 <body>
-    <!-- Form Element for searches -->
-    <form id="form">
+    <!-- Form Element for searches --><div id="form">
+
+      <form>
         <!-- Input to pull city info -->
         <input
         id="cityInput"
@@ -18,75 +19,31 @@
         />
         <!-- Button for Sumbitting -->
         <button id="submit" class="button" type="submit">
-            Get the Weather
-          </button>
-    </form>
+          Get the Weather
+        </button>
+      </form>
+    </div>
     <!-- Past Searches -->
-    <div class="box table-box">
+    <div id="box">
         <div id="table-container">
         </div>
       </div>
     </div>
 
     <!-- Returned Query Data -->
-    <div class="column">
-        <div id="weather-data" class="columns box content">
-          <div class="column current-city-data">
-            <h2 id="city-name"></h2>
-            <h4 id="city-cond"></h4>
-            <h4 id="temp"></h4>
-            <h4 id="high"></h4>
-            <h4 id="humidity"></h4>
-            <h4 id="wind-speed"></h4>
-            <h4 id="uv-index"></h4>
+    <div >
+        <div id="weather-data">
+          <div id="current-city-data">
           </div>
-          <div class="column">
-            <div id="icon"></div>
-          </div>
+          <div id="icon"></div>
         </div>
         <!-- Cards for Forecast -->
         <div class="container">
           <div class="content">
             <h2>5-Day Forecast:</h2>
             <div class="columns">
-              <div class="column card">
+              <div >
                 <div id="day1" class="card-content">
-                  <h3 id="date1" ></h3>
-                  <div id="icon1"></div>
-                  <h4 id="temp1" ></h4>
-                  <h4 id="hum1" ></h4>
-                </div>
-              </div>
-              <div class="column card">
-                <div id="day2" class="card-content">
-                  <h3 id="date2"></h3>
-                  <div id="icon2"></div>
-                  <h4 id="temp2" ></h4>
-                  <h4 id="hum2"></h4>
-                </div>
-              </div>
-              <div class="column card">
-                <div id="day3" class="card-content">
-                  <h3 id="date3" ></h3>
-                  <div id="icon3"></div>
-                  <h4 id="temp3" ></h4>
-                  <h4 id="hum3" ></h4>
-                </div>
-              </div>
-              <div class="column card">
-                <div id="day4" class="card-content">
-                  <h3 id="date4" ></h3>
-                  <div id="icon4"></div>
-                  <h4 id="temp4" ></h4>
-                  <h4 id="hum4" ></h4>
-                </div>
-              </div>
-              <div class="column card">
-                <div id="day5" class="card-content">
-                  <h3 id="date5" ></h3>
-                  <div id="icon5"></div>
-                  <h4 id="temp5" ></h4>
-                  <h4 id="hum5" ></h4>
                 </div>
               </div>
             </div>
